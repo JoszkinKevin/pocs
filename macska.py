@@ -2,6 +2,6 @@ import streamlit as st
 
 st.write("# Hello World!")
 
-st.text_input("nevet fasz", "")
+st.text_input("nevet", "")
 
 st.write("Halo")
