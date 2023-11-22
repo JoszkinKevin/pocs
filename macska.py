@@ -4,4 +4,4 @@ st.write("# Hello World!")
 
 st.text_input("nevet fasz", "")
 
-    st.write("Halo {st.}")
+st.write("Halo")
