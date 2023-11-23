@@ -22,10 +22,10 @@ def main():
   st.title("Számológép")
 
   szam1 = st.number_input("Első szám:")
-
-  muvelet = st.selectbox("Válassz műveletet:",("összeadás","kivonás","szorzás","osztás","százalékszámítás"))
-
+  
   szam2 = st.number_input("Második szám:")
+
+  muvelet = st.selectbox("Válassz műveletet:",("összeadás","kivonás","szorzás","osztás","százalékszámítás")
 
   result = 0
   if muvelet == "összeadás":
